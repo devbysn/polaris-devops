@@ -1,0 +1,45 @@
+# Ignore Terraform state files
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+
+# Ignore Terraform crash logs
+crash.log
+
+# Ignore .terraform directory
+terraform/.terraform/
+terraform/modules/.terraform/
+
+# Ignore local environment files
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Docker build files
+docker-compose.override.yml
+
+# Ignore Helm chart package files
+*.tgz
+
+# Ignore logs
+logs
+*.log
+
+# Ignore temporary files
+tmp/
+*.swp
+*~
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Ignore node_modules (if you have any JS/Node code)
+node_modules/
+
+# Ignore Jenkins workspace and builds
+jenkins_home/
